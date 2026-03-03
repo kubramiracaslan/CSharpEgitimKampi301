@@ -13,7 +13,7 @@ namespace C_EgitimKampi301.EntityLayer.concrete
 
         public int ProductId { get; set; }
 
-        public virtual Product Product { get; set; }
+        public virtual Product Product { get; set; } //Product tablosunun değerlerine orderdan ulaşmak için ekledik
 
         public int Quantity { get; set; }
 
@@ -23,6 +23,6 @@ namespace C_EgitimKampi301.EntityLayer.concrete
 
         public int CustomerId { get; set; }
 
-        public virtual Customer Customer { get; set; }
+        public virtual Customer Customer { get; set; } //Customer tablosunun değerlerine orderdan ulaşmak için ekledik
     }
 }

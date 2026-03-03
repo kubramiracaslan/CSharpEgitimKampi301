@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4 d17.14
+VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#EgitimKampi301.EntityLayer", "C#EgitimKampi301.EntityLayer\C#EgitimKampi301.EntityLayer.csproj", "{455BE2C8-3D5C-48F4-A15D-357D0F6040A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.EntityLayer", "C#EgitimKampi301.EntityLayer\CSharpEgitimKampi301.EntityLayer.csproj", "{455BE2C8-3D5C-48F4-A15D-357D0F6040A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#EgitimKampi301.DataAccessLayer", "C#EgitimKampi301.DataAccessLayer\C#EgitimKampi301.DataAccessLayer.csproj", "{85CCA002-B3CB-44AD-9998-E32673E317DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.DataAccessLayer", "C#EgitimKampi301.DataAccessLayer\CSharpEgitimKampi301.DataAccessLayer.csproj", "{85CCA002-B3CB-44AD-9998-E32673E317DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#EgitimKampi301.BusinessLayer", "C#EgitimKampi301.BusinessLayer\C#EgitimKampi301.BusinessLayer.csproj", "{33F397D6-E1B7-4828-B705-8A8F7298290B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.BusinessLayer", "C#EgitimKampi301.BusinessLayer\CSharpEgitimKampi301.BusinessLayer.csproj", "{33F397D6-E1B7-4828-B705-8A8F7298290B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#EgitimKampi301.PresentationLayer", "C#EgitimKampi301.PresentationLayer\C#EgitimKampi301.PresentationLayer.csproj", "{92234EB5-EC78-4AA8-9B87-B69A53A15AC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.PresentationLayer", "C#EgitimKampi301.PresentationLayer\CSharpEgitimKampi301.PresentationLayer.csproj", "{92234EB5-EC78-4AA8-9B87-B69A53A15AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.EntityFrameworkProject", "CSharpEgitimKampi301.EntityFrameworkProject\CSharpEgitimKampi301.EntityFrameworkProject.csproj", "{D4ACB8C6-21CB-4927-9187-D129CD3E3420}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{92234EB5-EC78-4AA8-9B87-B69A53A15AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92234EB5-EC78-4AA8-9B87-B69A53A15AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92234EB5-EC78-4AA8-9B87-B69A53A15AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4ACB8C6-21CB-4927-9187-D129CD3E3420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4ACB8C6-21CB-4927-9187-D129CD3E3420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4ACB8C6-21CB-4927-9187-D129CD3E3420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4ACB8C6-21CB-4927-9187-D129CD3E3420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,12 +13,12 @@ namespace C_EgitimKampi301.DataAccessLayer.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202601271844594_mig1"; }
+            get { return "202602201410153_mig1"; }
         }
         
         string IMigrationMetadata.Source
         {
-            get { return Resources.GetString("Source"); }
+            get { return null; }
         }
         
         string IMigrationMetadata.Target

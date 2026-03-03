@@ -20,7 +20,7 @@ namespace C_EgitimKampi301.EntityLayer.concrete
 
         public int CategoryId { get; set; }
 
-        public virtual Category Category { get; set; }
+        public virtual Category Category { get; set; } // Category tablosunun değerlerime ürün üzerinden ulaşmak için ekledik
 
         public List<Order> Orders { get; set; }
     }

@@ -1,6 +1,7 @@
 ﻿namespace C_EgitimKampi301.DataAccessLayer.Migrations
 {
     using System;
+    using System.Data.Entity.Core.Common.CommandTrees;
     using System.Data.Entity.Migrations;
     
     public partial class mig1 : DbMigration
